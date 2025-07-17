@@ -1,4 +1,4 @@
-# 🧩 r2c-url-shortener
+# 🧩 short.ly - packaged with the **r2c-url-shortener**
 
 A lightweight, pluggable Node.js utility for shortening URLs using **PostgreSQL**, **Redis**, and **SHA-256 hashing**. Perfect for building your own short URL service or integrating into existing backend microservices.
 
@@ -12,7 +12,7 @@ A lightweight, pluggable Node.js utility for shortening URLs using **PostgreSQL*
 - ⚙️ Configurable via user-defined options
 - ❌ Handles edge cases with custom error handling
 
-### Note: Free API version, custom domain hosting, CDN caching and much more to come soon
+*Note: Free API version, custom domain hosting, CDN caching and much more to come soon*
 
 ---
 
