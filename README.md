@@ -1,10 +1,10 @@
-# 🧩 short.ly - packaged with the **r2c-url-shortener**
+### 🧩 short.ly - packaged with the **r2c-url-shortener**
 
 A lightweight, pluggable Node.js utility for shortening URLs using **PostgreSQL**, **Redis**, and **SHA-256 hashing**. Perfect for building your own short URL service or integrating into existing backend microservices.
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - 🔗 Generates unique short URLs with collision handling
 - 🧠 Uses Redis for fast lookup caching
@@ -16,7 +16,7 @@ A lightweight, pluggable Node.js utility for shortening URLs using **PostgreSQL*
 
 ---
 
-## 📦 Installation
+### 📦 Installation
 
 ```bash
 npm install r2c-url-shortener
@@ -24,7 +24,7 @@ npm install r2c-url-shortener
 
 ---
 
-## 🧰 Usage
+### 🧰 Usage
 
 ### 1. Initialize PostgreSQL and Redis connections:
 
@@ -80,7 +80,7 @@ const func = async() => {
 
 ---
 
-## 🗃️ Dependencies
+### 🗃️ Dependencies
 
 - `pg` for PostgreSQL connection
 - `redis` for in-memory key-value caching
@@ -89,7 +89,7 @@ const func = async() => {
 
 ---
 
-## 📁 Database Schema
+### 📁 Database Schema
 
 You must have a `urls` table in PostgreSQL:
 
@@ -104,7 +104,7 @@ CREATE TABLE urls (
 
 ---
 
-## 🛡 Error Handling
+### 🛡 Error Handling
 
 All errors are wrapped in a custom `AppError` class with `statusCode` and `message`. You can handle them in your main app like this:
 
@@ -118,7 +118,7 @@ try {
 
 ---
 
-## 📜 License
+### 📜 License
 
 MIT © Almonds Technology Corporation
 📧 almonds.corporation@gmail.com
